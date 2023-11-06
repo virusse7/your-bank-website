@@ -11,5 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: Lexend, 'sans-serif';
+        background: ${({ theme }) => theme.grey10};
+        color: ${({ theme }) => theme.white};
     }
 `;
