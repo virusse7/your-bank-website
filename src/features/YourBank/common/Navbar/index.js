@@ -1,6 +1,6 @@
 import React from "react"
-import logo from "../../../../assets/logoBank.svg";
-import logoText from "../../../../assets/YourBank.svg";
+import logo from "../../assets/logoBank.svg";
+import logoText from "../../assets/YourBank.svg";
 import {
     Wrapper,
     Routes,
