@@ -1,10 +1,9 @@
-
+import { YourBank } from "./features/YourBank";
 
 function App() {
   return (
 
-    <div>sd
-    </div>
+    <YourBank />
 
   );
 }
