@@ -8,12 +8,14 @@ import React from 'react'
 
 const Login = () => {
     return (
-        <Wrapper>
-            <Navbar></Navbar>
-            <LoginForm></LoginForm>
-            <Testimonials></Testimonials>
+        <>
+            <Wrapper>
+                <Navbar></Navbar>
+                <LoginForm></LoginForm>
+                <Testimonials></Testimonials>
+            </Wrapper>
             <Footer></Footer>
-        </Wrapper>
+        </>
 
     )
 }
