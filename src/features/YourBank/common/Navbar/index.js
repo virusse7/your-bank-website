@@ -5,30 +5,30 @@ import {
     Wrapper,
     Routes,
     LogoField,
-    Button,
-    StyledButton,
+    Link,
+    StyledLink,
     RegisterField
 } from "./styled"
 
 const Navbar = () => (
     <Wrapper>
         <LogoField>
-            <img src={logo} width="40px" />
-            <img src={logoText} />
+            <img src={logo} width="40px" alt='logo' />
+            <img src={logoText} alt='bankName' />
         </LogoField>
         <Routes>
-            <Button>Home</Button>
-            <Button>Careers</Button>
-            <Button>About</Button>
-            <Button>Security</Button>
+            <Link>Home</Link>
+            <Link>Careers</Link>
+            <Link>About</Link>
+            <Link>Security</Link>
         </Routes>
         <RegisterField>
-            <Button>
+            <Link>
                 Sign Up
-            </Button>
-            <StyledButton>
+            </Link>
+            <StyledLink>
                 Log in
-            </StyledButton>
+            </StyledLink>
         </RegisterField>
     </Wrapper>
 );
