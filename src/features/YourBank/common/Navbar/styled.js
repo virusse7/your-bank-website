@@ -26,7 +26,9 @@ export const LogoField = styled.div`
     align-items: center;
 `;
 
-export const Button = styled.button`
+export const Link = styled.a`
+    display: flex;
+    align-items: center;
     padding: 0;
     color: inherit;
     background: none;
@@ -38,7 +40,7 @@ export const Button = styled.button`
     }
 `;
 
-export const StyledButton = styled(Button)`
+export const StyledLink = styled(Link)`
     background: ${({ theme }) => theme.green60};
     padding: 14px 30px;
     border-radius: 82px;
