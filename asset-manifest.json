@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.9f217624.js",
+    "main.js": "/static/js/main.90528484.js",
     "static/media/YourBank.svg": "/static/media/YourBank.fa172f10afdb741d56a949a8843fb551.svg",
     "static/media/twitterIcon.svg": "/static/media/twitterIcon.b5abf6af1b19b6f8b030f6c36a1c10a2.svg",
     "static/media/linkedinIcon.svg": "/static/media/linkedinIcon.1c38d09441a9cc1f612421570d0b4765.svg",
@@ -10,9 +10,9 @@
     "static/media/logoBank.svg": "/static/media/logoBank.a3cba66e25416261355a0c90d7747616.svg",
     "static/media/facebookIcon.svg": "/static/media/facebookIcon.89a613d0196ecee48bb45375f48b4a1b.svg",
     "static/media/envelopeIcon.svg": "/static/media/envelopeIcon.ceebd323e5a559e521e237828e2caa7f.svg",
-    "main.9f217624.js.map": "/static/js/main.9f217624.js.map"
+    "main.90528484.js.map": "/static/js/main.90528484.js.map"
   },
   "entrypoints": [
-    "static/js/main.9f217624.js"
+    "static/js/main.90528484.js"
   ]
 }
