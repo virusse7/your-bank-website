@@ -52,5 +52,37 @@ export const Text = styled.div`
 `;
 
 export const ForgotPasswordButton = styled.a`
+    display: inline-block;
+    margin: 40px 0;
+    transition: 1s;
 
+    &:hover {
+        border-color: ${({ theme }) => theme.green60};
+    }
+`;
+
+export const LoginInputs = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+`;
+
+export const Input = styled.input`
+    width: 100%;
+    border: 1px solid ${({ theme }) => theme.grey15};
+    color: ${({ theme }) => theme.grey35};
+    padding: 24px;
+    border-radius: 88px;
+    background: ${({ theme }) => theme.grey10};
+    transition: 1s;
+
+    &:hover {
+        border-color: ${({ theme }) => theme.green60};
+    }
+`;
+
+export const ButtonContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 `;

@@ -1,5 +1,19 @@
 import React from 'react'
-import { Header, Wrapper, Title, Box, ActionContainer, LoginButton, SignUpButton, Line, Text, ForgotPasswordButton } from './styled'
+import {
+    Header,
+    Wrapper,
+    Title,
+    Box,
+    ActionContainer,
+    LoginInputs,
+    LoginButton,
+    SignUpButton,
+    Line,
+    Text,
+    ForgotPasswordButton,
+    Input,
+    ButtonContainer
+} from './styled'
 
 const LoginForm = () => {
     return (
@@ -7,10 +21,10 @@ const LoginForm = () => {
             <Box>
                 <Header>Login</Header>
                 <Title>Welcome back! Please log in to access your account.</Title>
-                <div>
-                    <input type='email' placeholder='Enter your Email' />
-                    <input type='password' placeholder='Enter your Password' />
-                </div>
+                <LoginInputs>
+                    <Input type='email' placeholder='Enter your Email' />
+                    <Input type='password' placeholder='Enter your Password' />
+                </LoginInputs>
                 <ForgotPasswordButton>Forgot Password?</ForgotPasswordButton>
                 <ActionContainer>
                     <LoginButton>Login</LoginButton>
@@ -20,11 +34,11 @@ const LoginForm = () => {
                         Or Continue with
                         <Line />
                     </Text>
-                    <div>
+                    <ButtonContainer>
                         <img />
                         <img />
                         <img />
-                    </div>
+                    </ButtonContainer>
                 </ActionContainer>
             </Box>
         </Wrapper>
