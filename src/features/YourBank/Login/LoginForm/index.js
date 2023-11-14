@@ -2,6 +2,7 @@ import React from 'react'
 import facebookIcon from "./icons/facebookIcon.svg";
 import appleIcon from "./icons/appleIcon.svg";
 import googleIcon from "./icons/googleIcon.svg";
+import eyeIcon from "./icons/eyeIcon.svg";
 import {
     Header,
     Wrapper,
@@ -17,7 +18,9 @@ import {
     Input,
     ButtonContainer,
     Icon,
-    Button
+    Button,
+    StyledIcon,
+    ButtonIcon
 } from './styled'
 
 const LoginForm = () => {
@@ -29,6 +32,7 @@ const LoginForm = () => {
                 <LoginInputs>
                     <Input type='email' placeholder='Enter your Email' />
                     <Input type='password' placeholder='Enter your Password' />
+                    <ButtonIcon><img src={eyeIcon} /></ButtonIcon>
                 </LoginInputs>
                 <ForgotPasswordButton>Forgot Password?</ForgotPasswordButton>
                 <ActionContainer>
