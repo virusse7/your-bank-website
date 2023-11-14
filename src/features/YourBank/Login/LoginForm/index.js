@@ -3,6 +3,7 @@ import facebookIcon from "./icons/facebookIcon.svg";
 import appleIcon from "./icons/appleIcon.svg";
 import googleIcon from "./icons/googleIcon.svg";
 import eyeIcon from "./icons/eyeIcon.svg";
+import decoration from "../../assets/circle-top-right.svg"
 import {
     Header,
     Wrapper,
@@ -19,13 +20,14 @@ import {
     ButtonContainer,
     Icon,
     Button,
-    StyledIcon,
+    Decoration,
     ButtonIcon
 } from './styled'
 
 const LoginForm = () => {
     return (
         <Wrapper>
+            <Decoration src={decoration} />
             <Box>
                 <Header>Login</Header>
                 <Title>Welcome back! Please log in to access your account.</Title>

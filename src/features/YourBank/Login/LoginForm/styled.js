@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-
     text-align: center;
 `;
 
@@ -55,7 +54,7 @@ export const ForgotPasswordButton = styled.a`
     display: inline-block;
     margin: 40px 0;
     transition: 1s;
-
+    
     &:hover {
         border-color: ${({ theme }) => theme.green60};
     }
@@ -75,7 +74,7 @@ export const Input = styled.input`
     border-radius: 88px;
     background: ${({ theme }) => theme.grey10};
     transition: 1s;
-
+    
     &:hover {
         border-color: ${({ theme }) => theme.green60};
     }
@@ -107,4 +106,12 @@ export const ButtonIcon = styled.button`
     top: 402px;
     border: none;
     background: none;
+`;
+
+export const Decoration = styled.img`
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
 `;
