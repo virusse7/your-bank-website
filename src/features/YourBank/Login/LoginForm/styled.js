@@ -100,3 +100,11 @@ export const Icon = styled.img`
     border-radius: 50px;
     background: linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%);
 `;
+
+export const ButtonIcon = styled.button`
+    position: absolute;
+    right: 220px;
+    top: 402px;
+    border: none;
+    background: none;
+`;
