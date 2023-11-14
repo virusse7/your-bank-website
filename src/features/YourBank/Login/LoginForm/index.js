@@ -1,7 +1,7 @@
 import React from 'react'
-import facebookIcon from "../../assets/facebookIcon.svg"
-import linkedinIcon from "../../assets/linkedinIcon.svg"
-import twitterIcon from "../../assets/twitterIcon.svg"
+import facebookIcon from "./icons/facebookIcon.svg";
+import appleIcon from "./icons/appleIcon.svg";
+import googleIcon from "./icons/googleIcon.svg";
 import {
     Header,
     Wrapper,
@@ -16,7 +16,8 @@ import {
     ForgotPasswordButton,
     Input,
     ButtonContainer,
-    Icon
+    Icon,
+    Button
 } from './styled'
 
 const LoginForm = () => {
@@ -39,9 +40,15 @@ const LoginForm = () => {
                         <Line />
                     </Text>
                     <ButtonContainer>
-                        <Icon src={facebookIcon} />
-                        <Icon src={twitterIcon} />
-                        <Icon src={linkedinIcon} />
+                        <Button>
+                            <Icon src={facebookIcon} />
+                        </Button>
+                        <Button>
+                            <Icon src={googleIcon} />
+                        </Button>
+                        <Button>
+                            <Icon src={appleIcon} />
+                        </Button>
                     </ButtonContainer>
                 </ActionContainer>
             </Box>

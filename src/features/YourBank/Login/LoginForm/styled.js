@@ -82,19 +82,21 @@ export const Input = styled.input`
 `;
 
 export const ButtonContainer = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    `;
+    display: flex;
+    justify-content: space-evenly;
+`;
 
 export const Button = styled.button`
-    background-color: ${({ theme }) => theme.green60};
-    `;
+    display: flex;
+    gap: 10px;
+    border-radius: 70px;
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+    padding: 12px;
+    border: none;
+`;
 
 export const Icon = styled.img`
-    color: ${({ theme }) => theme.green60};
     padding: 20px;
     border-radius: 50px;
-    border: 1px solid #CAFF33;
     background: linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%);
 `;
