@@ -1,9 +1,8 @@
-import React from 'react'
 import facebookIcon from "./icons/facebookIcon.svg";
 import appleIcon from "./icons/appleIcon.svg";
 import googleIcon from "./icons/googleIcon.svg";
 import eyeIcon from "./icons/eyeIcon.svg";
-import decoration from "../../assets/circle-top-right.svg"
+import decoration from "../../assets/circle-top-right.svg";
 import {
     Header,
     Wrapper,
@@ -22,7 +21,7 @@ import {
     Button,
     Decoration,
     ButtonIcon
-} from './styled'
+} from "./styled";
 
 const LoginForm = () => {
     return (
@@ -32,9 +31,9 @@ const LoginForm = () => {
                 <Header>Login</Header>
                 <Title>Welcome back! Please log in to access your account.</Title>
                 <LoginInputs>
-                    <Input type='email' placeholder='Enter your Email' />
-                    <Input type='password' placeholder='Enter your Password' />
-                    <ButtonIcon><img src={eyeIcon} /></ButtonIcon>
+                    <Input type="email" placeholder="Enter your Email" />
+                    <Input type="password" placeholder="Enter your Password" />
+                    <ButtonIcon><img src={eyeIcon} alt="eyeIcon" /></ButtonIcon>
                 </LoginInputs>
                 <ForgotPasswordButton>Forgot Password?</ForgotPasswordButton>
                 <ActionContainer>
@@ -47,19 +46,19 @@ const LoginForm = () => {
                     </Text>
                     <ButtonContainer>
                         <Button>
-                            <Icon src={facebookIcon} />
+                            <Icon src={facebookIcon} alt="facebookIcon" />
                         </Button>
                         <Button>
-                            <Icon src={googleIcon} />
+                            <Icon src={googleIcon} alt="googleIcon" />
                         </Button>
                         <Button>
-                            <Icon src={appleIcon} />
+                            <Icon src={appleIcon} alt="appleIcon" />
                         </Button>
                     </ButtonContainer>
                 </ActionContainer>
             </Box>
         </Wrapper>
-    )
-}
+    );
+};
 
-export default LoginForm
+export default LoginForm;
