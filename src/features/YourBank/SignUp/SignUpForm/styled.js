@@ -33,11 +33,20 @@ export const LoginButton = styled.button`
     border-radius: 63px;
     border: none;
     background-color: ${({ theme }) => theme.green60};
+    transition: 1s;
+
+    &:hover {
+        background-color: ${({ theme }) => theme.green65};
+    }
 `;
 
 export const SignUpButton = styled(LoginButton)`
     background-color: ${({ theme }) => theme.grey20};
     color: ${({ theme }) => theme.white};
+    
+    &:hover {
+        background-color: ${({ theme }) => theme.grey30};
+    }
 `;
 
 export const Line = styled.div`

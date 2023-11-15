@@ -1,8 +1,8 @@
-import React from 'react'
 import Navbar from "../common/Navbar"
 import Footer from "../common/Footer"
 import { Wrapper } from "./styled"
-import SignUpForm from './SignUpForm'
+import SignUpForm from "./SignUpForm"
+import Testimonials from "../common/Testimonials"
 
 const SignUp = () => {
     return (
@@ -10,10 +10,11 @@ const SignUp = () => {
             <Wrapper>
                 <Navbar />
                 <SignUpForm />
+                <Testimonials />
             </Wrapper>
             <Footer />
         </>
-    )
-}
+    );
+};
 
-export default SignUp
+export default SignUp;

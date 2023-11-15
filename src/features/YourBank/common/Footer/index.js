@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from "../../assets/logoBank.svg";
 import logoText from "../../assets/YourBank.svg";
 import envelopeIcon from "../../assets/envelopeIcon.svg";
@@ -21,15 +20,15 @@ import {
     Socials,
     RightsReserved,
     FooterLink
-} from './styled'
+} from "./styled";
 
 
 const Footer = () => {
     return (
         <Wrapper>
             <LogoField>
-                <img src={logo} alt='logo' width='40px' />
-                <img src={logoText} alt='bankName' />
+                <img src={logo} alt="logo" width="40px" />
+                <img src={logoText} alt="bankName" />
             </LogoField>
             <Routes>
                 <Link>Home</Link>
@@ -40,16 +39,16 @@ const Footer = () => {
             <Divider />
             <ContactSection>
                 <Link>
-                    <img src={envelopeIcon} alt='envelopeIcon' />
+                    <img src={envelopeIcon} alt="envelopeIcon" />
                     abcdef123@gmail.com
 
                 </Link>
                 <InformationText>
-                    <img src={phoneIcon} alt='phoneIcon' />
+                    <img src={phoneIcon} alt="phoneIcon" />
                     +91 91813 23 2309
                 </InformationText>
                 <InformationText>
-                    <img src={locationIcon} alt='locationIcon' />
+                    <img src={locationIcon} alt="locationIcon" />
                     Somewhere in the World
                 </InformationText>
             </ContactSection>
@@ -57,13 +56,13 @@ const Footer = () => {
             <FooterSection>
                 <Socials>
                     <StyledLinkLogo>
-                        <img src={facebookIcon} alt='facebookIcon' />
+                        <img src={facebookIcon} alt="facebookIcon" />
                     </StyledLinkLogo>
                     <StyledLinkLogo>
-                        <img src={twitterIcon} alt='twitterIcon' />
+                        <img src={twitterIcon} alt="twitterIcon" />
                     </StyledLinkLogo>
                     <StyledLinkLogo>
-                        <img src={linkedinIcon} alt='linkedinIcon' />
+                        <img src={linkedinIcon} alt="linkedinIcon" />
                     </StyledLinkLogo>
                 </Socials>
                 <RightsReserved>YourBank All Rights Reserved</RightsReserved>
@@ -73,7 +72,7 @@ const Footer = () => {
                 </StyledRoutes>
             </FooterSection>
         </Wrapper>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

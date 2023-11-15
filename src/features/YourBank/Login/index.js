@@ -2,9 +2,8 @@ import { Wrapper } from "./styled"
 import Footer from "../common/Footer"
 import LoginForm from "./LoginForm"
 import Navbar from "../common/Navbar"
-import Testimonials from "./Testimonials"
+import Testimonials from "../common/Testimonials"
 
-import React from 'react'
 
 const Login = () => {
     return (
@@ -16,7 +15,7 @@ const Login = () => {
             </Wrapper>
             <Footer></Footer>
         </>
-    )
-}
+    );
+};
 
-export default Login
+export default Login;

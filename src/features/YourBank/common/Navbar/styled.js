@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
@@ -36,9 +35,10 @@ export const Link = styled.a`
     border: none;
     cursor: pointer;
     transition: 1s;
+
     &:hover {
-        color: ${({ theme }) => theme.green60}
-    }
+        color: ${({ theme }) => theme.green60};
+    };
 `;
 
 export const StyledLink = styled(Link)`
@@ -48,8 +48,8 @@ export const StyledLink = styled(Link)`
     color: ${({ theme }) => theme.black};
 
     &:hover {
-        color: ${({ theme }) => theme.grey40}
-    }
+        color: ${({ theme }) => theme.grey40};
+    };
 `;
 
 export const RegisterField = styled.div`

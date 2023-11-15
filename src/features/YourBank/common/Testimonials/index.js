@@ -4,8 +4,7 @@ import {
     TextGreen,
     SubTitle,
     Tile
-} from './styled';
-import React from 'react'
+} from "./styled";
 
 const Testimonials = () => {
     return (
@@ -28,7 +27,7 @@ const Testimonials = () => {
                 {/* imie */}
             </Tile>
         </Wrapper>
-    )
-}
+    );
+};
 
-export default Testimonials
+export default Testimonials;

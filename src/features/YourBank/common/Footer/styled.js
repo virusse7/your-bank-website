@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     background: ${({ theme }) => theme.grey11};
     padding: 100px 162px 50px 162px;
-    
 `;
 
 export const LogoField = styled.div`
@@ -28,9 +27,10 @@ export const Link = styled.a`
     border: none;
     cursor: pointer;
     transition: 1s;
+
     &:hover {
-        color: ${({ theme }) => theme.green60}
-    }
+        color: ${({ theme }) => theme.green60};
+    };
 `;
 
 export const Divider = styled.div`
@@ -43,16 +43,16 @@ export const ContactSection = styled.div`
     gap: 20px;
     justify-content: center;
     align-items: center;
-    
 `;
 
 export const InformationText = styled.div`
     display: flex;
     align-items: center;
     transition: 1s;
+
     &:hover {
-        color: ${({ theme }) => theme.green60}
-    }
+        color: ${({ theme }) => theme.green60};
+    };
 `;
 
 export const FooterSection = styled.footer`

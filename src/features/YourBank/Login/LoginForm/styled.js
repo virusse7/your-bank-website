@@ -57,7 +57,7 @@ export const ForgotPasswordButton = styled.a`
     
     &:hover {
         border-color: ${({ theme }) => theme.green60};
-    }
+    };
 `;
 
 export const LoginInputs = styled.div`
@@ -77,7 +77,7 @@ export const Input = styled.input`
     
     &:hover {
         border-color: ${({ theme }) => theme.green60};
-    }
+    };
 `;
 
 export const ButtonContainer = styled.div`
