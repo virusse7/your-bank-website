@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     border: 1px solid ${({ theme }) => theme.grey15};
     border-radius: 100px;
     padding: 20px 34px;
+    margin-top: 50px;
 `;
 
 export const styleSVG = Icon => styled(Icon)`

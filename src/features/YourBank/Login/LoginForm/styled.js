@@ -103,7 +103,7 @@ export const Icon = styled.img`
 export const ButtonIcon = styled.button`
     position: absolute;
     right: 220px;
-    top: 402px;
+    top: 432px;
     border: none;
     background: none;
 `;
